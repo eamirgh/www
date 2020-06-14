@@ -1,20 +1,15 @@
 baseURL = "https://amirghaffari.com/"
 title = "Amir Ghaffari Heravi"
 
-theme = "fuji"
+theme = "codex"
 hasCJKLanguage = false
 enableEmoji = true
 enableRobotsTXT = true
-disableKinds = ["taxonomyTerm"]
-
-## Change this two to switch between different language
-languageCode = "en-US"  # For RSS, view https://www.rssboard.org/rss-language-codes
-defaultContentLanguage = "en"  # For HTML page, now support: en, zh-hans, zh-hant, ja, nl
+languageCode = "en-US"
+defaultContentLanguage = "en"
 
 summaryLength = 100 # Custom cummary length, add <!--more--> in post file to custom split point
-paginate = 10
-
-googleAnalytics = "UA-76739238-11" # Set your Google Analytics UA here
+paginate = 10" 
 
 [minify]
   disableCSS = false
@@ -25,18 +20,9 @@ googleAnalytics = "UA-76739238-11" # Set your Google Analytics UA here
   disableXML = false
   minifyOutput = true
 
-[permalinks]
-  post = "/:language/:filename/" # Custom post links, e.g. "/:year/:month/:title/"
-
 [params]
   author = "Amir Ghaffari Heravi" # You can also set author in post front matter individually
   subTitle = "full-stack web developer"
-
-  # Use CloudFlare Workers to accelerate the Google Analytics
-  # If you are using this please comment the googleAnalytics above
-  # Check https://github.com/SukkaW/cloudflare-workers-async-google-analytics for more details
-  # googleAnalyticsTid = "UA-76739238-11"
-  # googleAnalyticsRoute = "https://*.*.workers.dev/"
 
   # Word counter and read time indicator in post metadata
   showWordCounter = true
