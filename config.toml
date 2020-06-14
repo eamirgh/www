@@ -9,7 +9,7 @@ languageCode = "en-US"
 defaultContentLanguage = "en"
 
 summaryLength = 100 # Custom cummary length, add <!--more--> in post file to custom split point
-paginate = 10" 
+paginate = 10
 
 [minify]
   disableCSS = false
