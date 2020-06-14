@@ -1,0 +1,32 @@
+{{ define "stylesheets" }}
+<link rel="stylesheet" href="/css/about.css" />
+{{ end }} {{ define "main" }}
+
+<div class="splash-container">
+  <div class="splash">
+    <h1>{{ .Params.heading }}<span class="fancy">.</span></h1>
+    {{ if isset .Params "handle" }}
+    <span class="handle">@{{ .Params.handle }}</span>
+    {{ end }}
+    <h2>
+      {{ .Params.subheading }}
+    </h2>
+    <p>
+      I'm <b>Amir</b>, I currently live in <i>Tabriz, Iran</i>.
+      <br />
+      I am a geek(or a geeky nerd) .
+      <br />
+      Nowdays I develop apps with golang, PHP, Javascript, Python; I mainly use
+      Laravel and Lumen frameworks for PHP apps and Vue.js and Nuxt.js for
+      Javascript frontends, I do not preffer a framework for golang and also I
+      make use of MySQL, MariaDB, Postgesql and Sqlite as RDBSs and Redis as
+      nosql RESTful apis and graphql. I am also enthusiast about data sience
+      especially ML and AI.
+    </p>
+    <!-- Replace MEEEEE -->
+
+    {{ partial "social-icons.html" .}}
+  </div>
+</div>
+
+{{ end }}
