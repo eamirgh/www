@@ -1,5 +1,4 @@
 ---
-heading: "Hi, I'm Amir"
-subheading: "geek/full-stack web developer"
-handle: "eamirgh"
+heading: "Backend Developer"
+subheading: "Amir Ghaffari"
 ---

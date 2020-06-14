@@ -1,6 +1,45 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #index{
     display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 #index img {
-    width: 250px;
+    width: 8rem;
+    margin: 0.5rem;
+    border-radius: 0.25rem;
 }
+.splash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fancy{
+    color: #f6ca93;
+}
+#bio{
+    max-width: 80vw;
+}
+#bio p{
+    text-align: justify;
+}
+
+@media (min-width: 640px) {
+    #index{
+        width: 80%;
+    }
+  }
+  @media (min-width: 768px) {
+    #index{
+        width: 70%;
+    }
+  }
+  @media (min-width: 1024px) {
+    #index{
+        width: 33.3333%;
+    }
+  }

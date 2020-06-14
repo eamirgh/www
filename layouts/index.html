@@ -2,18 +2,25 @@
 <link rel="stylesheet" href="/css/about.css" />
 {{ end }} {{ define "main" }}
 
-<div class="splash-container">
-  <img src="https://amirghaffari.com/uploads/avatar.jpg" alt="Amir Ghaffari Heravi">
-  <div class="splash" id="index">
-    <h1>{{ .Params.heading }}<span class="fancy">.</span></h1>
-    {{ if isset .Params "handle" }}
-    <span class="handle">@{{ .Params.handle }}</span>
-    {{ end }}
-    <h4>
-      {{ .Params.subheading }}
-    </h4>
+<div class="splash-container" id="index">
+  <div class="splash">
+    <img
+      src="https://amirghaffari.com/uploads/avatar.jpg"
+      alt="Amir Ghaffari Heravi"
+    />
+    <section>
+      <h1>
+        {{ .Params.subheading }}
+      </h1>
+      <h3>{{ .Params.heading }}</h3>
+      {{ if isset .Params "handle" }}
+      <span class="handle">@{{ .Params.handle }}</span>
+      {{ end }}
+    </section>
+  </div>
+  <section id="bio">
     <p>
-      I'm <b>Amir Ghaffari Heravi</b>, I currently live in <i>Tabriz, Iran</i>.
+      I'm <b>Amir</b>, I currently live in <i>Tabriz, Iran</i>.
       <br />
       I am a geek(or a geeky nerd) .
       <br />
@@ -21,13 +28,13 @@
       Laravel and Lumen frameworks for PHP apps and Vue.js and Nuxt.js for
       Javascript frontends, I do not preffer a framework for golang and also I
       make use of MySQL, MariaDB, Postgesql and Sqlite as RDBSs and Redis as
-      nosql RESTful apis and graphql. I am also enthusiast about data sience
+      nosql RESTful apis and GraphQL. I am also enthusiast about data sience
       especially ML and AI.
     </p>
     <!-- Replace MEEEEE -->
 
     {{ partial "social-icons.html" .}}
-  </div>
+  </section>
 </div>
 
 {{ end }}
