@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://amirghaffari.com/"
 title = "Amir Ghaffari Heravi"
 
 theme = "fuji"
@@ -8,7 +8,7 @@ enableRobotsTXT = true
 disableKinds = ["taxonomyTerm"]
 
 ## Change this two to switch between different language
-languageCode = "en"  # For RSS, view https://www.rssboard.org/rss-language-codes
+languageCode = "en-US"  # For RSS, view https://www.rssboard.org/rss-language-codes
 defaultContentLanguage = "en"  # For HTML page, now support: en, zh-hans, zh-hant, ja, nl
 
 summaryLength = 100 # Custom cummary length, add <!--more--> in post file to custom split point
@@ -26,7 +26,7 @@ googleAnalytics = "UA-76739238-11" # Set your Google Analytics UA here
   minifyOutput = true
 
 [permalinks]
-  post = "/:section/:filename/" # Custom post links, e.g. "/:year/:month/:title/"
+  post = "/:language/:filename/" # Custom post links, e.g. "/:year/:month/:title/"
 
 [params]
   author = "Amir Ghaffari Heravi" # You can also set author in post front matter individually
@@ -51,7 +51,7 @@ googleAnalytics = "UA-76739238-11" # Set your Google Analytics UA here
   images = ["img/og.png"] # This will use the image called og.png in static/img folder
 
   # Posts shown in homepage
-  mainSections = ["post"]
+  mainSections = ["posts"]
 
   # Bangumi image chart id
   # bgmImageChart = "000000"
