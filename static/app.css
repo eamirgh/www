@@ -27,7 +27,9 @@ main{
 #bio p{
     text-align: justify;
 }
-
+.social-icons__icon--email {
+    background-image: url("/icons/email.svg");
+  }
 @media (min-width: 640px) {
     #index{
         width: 80%;
