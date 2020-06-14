@@ -29,7 +29,8 @@ main{
 }
 .social-icons__icon--email {
     background-image: url("/icons/email.svg");
-  }
+    margin-left: 2rem;
+}
 @media (min-width: 640px) {
     #index{
         width: 80%;
