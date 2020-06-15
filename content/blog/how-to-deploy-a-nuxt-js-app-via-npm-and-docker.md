@@ -71,11 +71,9 @@ ENV NUXT_PORT 3000
 # Bundle app source
 COPY . /usr/src/app
 
-# Installing needed packages only
-RUN npm install --only=production
-
-# Clear the cache
-RUN npm cache clean --force
+# Installing needed packages only and clearing cache
+RUN npm install --only=production && \
+    npm cache clean --force
 
 EXPOSE 3000
 CMD [ "npm", "start" ]
