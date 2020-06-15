@@ -7,7 +7,7 @@ enableEmoji = true
 enableRobotsTXT = true
 languageCode = "en-US"
 defaultContentLanguage = "en"
-
+copyright = "© Amir Ghaffari Heravi 2018 - {year}"
 summaryLength = 100 # Custom cummary length, add <!--more--> in post file to custom split point
 paginate = 10
 
