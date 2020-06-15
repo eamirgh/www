@@ -15,7 +15,7 @@ keywords:
   - deploy
   - devops
 ---
-Since I found [Nuxt.js](https://nuxtjs.org/), I was fascinated by the performance and speed and I always wanted to make use of. These days [Docker](https://www.docker.com/) has a mandatory to deploy and ship all kind of apps. So I decided to make a simple template for myself and deploy it via docker, since this post's title is about dockerizing, I skip the Nuxt part.
+Since I saw [Nuxt.js](https://nuxtjs.org/), I was fascinated by the performance and speed and I always wanted to use it in a project. These days [Docker](https://www.docker.com/) has a mandatory to deploy and ship all kind of apps. So I decided to make a simple template for myself and deploy it via docker, since this post's title is about dockerizing, I skip the Nuxt part.
 
 So let's begin!
 
