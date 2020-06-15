@@ -89,4 +89,4 @@ Build the image with a single command but before that ensure that there is no `n
 $ docker image build -t my-handle/appname:tag .
 ```
 
-After a couple of minutes (based in your device and internet speed) your minimalistic docker image is ready.
+After a couple of minutes (depending on your device performance and internet speed) your minimalistic docker image is ready.
