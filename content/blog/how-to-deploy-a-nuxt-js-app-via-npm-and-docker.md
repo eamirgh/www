@@ -82,7 +82,7 @@ CMD [ "npm", "start" ]
 
 ```
 
-** Step 3: **
+**Step 3:**
 
 Build the image with a single command but before that ensure that there is no `node_modules` or `.nuxt` forlder, because they will be copied to the docker image if they exist and that will increase the size of the docker image.
 ```bash
