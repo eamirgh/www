@@ -10,6 +10,7 @@ defaultContentLanguage = "en"
 copyright = "© Amir Ghaffari Heravi 2018 - {year}"
 summaryLength = 100 # Custom cummary length, add <!--more--> in post file to custom split point
 paginate = 10
+googleAnalytics = "UA-76739238-11"
 
 [minify]
   disableCSS = false
