@@ -37,7 +37,7 @@
     {{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML}}
     {{ end }}
     {{ block "links" . }} {{ end }}
-    {{ partial "seo-schema.html".}}
+    {{ partial "seo-schema.html" .}}
     <link rel="stylesheet" href="/app.css" />
     <link rel="stylesheet" href="/syntax.css" />
 
