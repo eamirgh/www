@@ -2,18 +2,18 @@
 layout: blog
 title: How to deploy a NUXT.JS app via NPM and docker?
 description: A tutorial to dockerize a nuxtjs app via npm and publish it
-date: 2020-06-15T07:50:42.726Z
-draft: false
+date: 2020-06-15T07:50:42.726+00:00
 tags:
-  - nuxt.js
-  - docker
-  - npm
+- nuxt.js
+- docker
+- npm
 keywords:
-  - nuxt.js
-  - docker
-  - npm
-  - deploy
-  - devops
+- nuxt.js
+- docker
+- npm
+- deploy
+- devops
+
 ---
 Since I saw [Nuxt.js](https://nuxtjs.org/), I was fascinated by the performance and speed and I always wanted to use it in a project. These days [Docker](https://www.docker.com/) has a mandatory to deploy and ship all kind of apps. So I decided to make a simple template for myself and deploy it via docker, since this post's title is about dockerizing, I skip the Nuxt part.
 
@@ -21,7 +21,7 @@ So let's begin!
 
 **Step 1:**
 
-At first we add a empty `Dockerfile` to the **root** folder.
+At first we add a empty `Dockerfile` to project's **root** folder.
 
 ```bash 
 $ touch Dockerfile
@@ -77,12 +77,12 @@ RUN npm install --only=production && \
 
 EXPOSE 3000
 CMD [ "npm", "start" ]
-
 ```
 
 **Step 3:**
 
 Build the image with a single command but before that ensure that there is no `node_modules` or `.nuxt` forlder, because they will be copied to the docker image if they exist and that will increase the size of the docker image.
+
 ```bash
 $ docker image build -t my-handle/appname:tag .
 ```
