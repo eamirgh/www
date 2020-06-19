@@ -20,3 +20,5 @@ fields:
 - type: list
   name: keywords
   label: keywords
+pages:
+- content/blog/creating-a-website-with-hugo-netlify-and-forestry.md
