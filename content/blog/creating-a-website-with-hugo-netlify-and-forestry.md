@@ -1,7 +1,6 @@
 +++
 date = 2020-06-18T19:30:00Z
 description = "A tutorial for creating a website with Hugo, Netlify and Forestry using github or gitlab."
-draft = true
 keywords = ["static cms", "netlify", "hugo site generator", "static website", "free static website"]
 layout = "blog"
 tags = ["Forestry", "Netlify", "Hugo"]
@@ -91,8 +90,20 @@ After adding the domain you will be redirected to domain management page it will
 
 Go to your domain's DNS provider website and add two `CNAME` records with values of `@` and `www` forwarding to your Default netlify subdomain which in my case is `practical-easley-8f4f43.netlify.app` as you can see from image above.
 
-Alternatively you can add an `A` record with value of `@` forwarding to `104.198.14.52  `and that is nicely done!
+Alternatively you can add an `A` record with value of `@` forwarding to `104.198.14.52`and that is nicely done!
 
 **Step 4:**
 
-Now we have our website setup, how can we add posts or edit content as a real site? Well, we  need a CMS, there are many options such as Netlify CMS and forestry, we will use forestry as  our CMS, go to forestry's website and login via github/gitlab 
+Now we have our website setup, how can we add posts or edit content as a real site? Well, we  need a CMS, there are many options such as Netlify CMS and forestry, we will use forestry as  our CMS, go to forestry's website and login via github/gitlab. Click on add site select Hugo and select the latest version of Hugo then login to your git account and select your repository after that in the following popup click mark as done for all options:
+
+![](/uploads/forestry-mark-as-done-all.jpg)
+
+Done! Now you can add pages and posts to your website and blog.
+
+Checkout the sidebar:
+
+![](/uploads/forestry-sidebar.jpg)
+
+And guess what! I am posting this post with exact same config :D.
+
+![](/uploads/screenshot_2020-06-19-forestry-io.png)
