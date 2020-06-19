@@ -22,27 +22,6 @@ Make a new directory and `git init` inside it. Then I add the theme as a git sub
 
 Grab the `config` file with any of these extentions:  `.yaml` `.yml` `.json` `.toml`  from your chosen theme's `exampleSite` directory and paste it to root directory of project also similarly copy the `content` folder into root project, take a look at the config file and change them as you wish.
 
-Create a new repo on gitlab or github and push the project into it.
-
-**Step 3:**
-
-Ez huh? Let's deploy it into awesome [Netlify](https://app.netlify.com "Netlify PaaS").
-
-Go to Netlify website and login via github or gitlab, after login, click on new site from Git:
-
-![](/uploads/netlify-new-site-from-git.jpg)
-
-Then select the git server of your site repository for a Continuous Deployment:
-
-![](/uploads/netlify-create-new-site.jpg)
-
-Then allow giving permission to Netlify and select the repo you had created:
-
-![](/uploads/netlify-pick-repo.jpg)
-
-In the build options enter the shown config:
-
-![](/uploads/netlify-build-settings.jpg)
 
 You can also create a `netlify.toml` file with following content to have a build script:
 
@@ -76,3 +55,28 @@ You can also create a `netlify.toml` file with following content to have a build
     
     [context.next.environment]
     HUGO_ENABLEGITINFO = "true"
+
+
+Create a new repo on gitlab or github and push the project into it.
+
+
+**Step 3:**
+
+Ez huh? Let's deploy it into awesome [Netlify](https://app.netlify.com "Netlify PaaS").
+
+Go to Netlify website and login via github or gitlab, after login, click on new site from Git:
+
+![](/uploads/netlify-new-site-from-git.jpg)
+
+Then select the git server of your site repository for a Continuous Deployment:
+
+![](/uploads/netlify-create-new-site.jpg)
+
+Then allow giving permission to Netlify and select the repo you had created:
+
+![](/uploads/netlify-pick-repo.jpg)
+
+In the build options enter the shown config:
+
+![](/uploads/netlify-build-settings.jpg)
+
