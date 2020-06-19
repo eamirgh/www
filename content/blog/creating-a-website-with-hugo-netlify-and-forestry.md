@@ -22,38 +22,38 @@ Make a new directory and `git init` inside it. Then I add the theme as a git sub
 Grab the `config` file with any of these extentions:  `.yaml` `.yml` `.json` `.toml`  from your chosen theme's `exampleSite` directory and paste it to root directory of project also similarly copy the `content` folder into root project, take a look at the config file and change them as you wish.
 
 You can also create a `netlify.toml` file with following content to have a build script:
+```toml
+[build]
+publish = "public"
+command = "hugo --gc --minify"
 
-    [build]
-    publish = "public"
-    command = "hugo --gc --minify"
-    
-    [context.production.environment]
-    HUGO_VERSION = "0.72.0"
-    HUGO_ENV = "production"
-    HUGO_ENABLEGITINFO = "true"
-    
-    [context.split1]
-    command = "hugo --gc --minify --enableGitInfo"
-    
-    [context.split1.environment]
-    HUGO_VERSION = "0.72.0"
-    HUGO_ENV = "production"
-    
-    [context.deploy-preview]
-    command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
-    
-    [context.deploy-preview.environment]
-    HUGO_VERSION = "0.72.0"
-    
-    [context.branch-deploy]
-    command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
-    
-    [context.branch-deploy.environment]
-    HUGO_VERSION = "0.72.0"
-    
-    [context.next.environment]
-    HUGO_ENABLEGITINFO = "true"
+[context.production.environment]
+HUGO_VERSION = "0.72.0"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
 
+[context.split1]
+command = "hugo --gc --minify --enableGitInfo"
+
+[context.split1.environment]
+HUGO_VERSION = "0.72.0"
+HUGO_ENV = "production"
+
+[context.deploy-preview]
+command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.72.0"
+
+[context.branch-deploy]
+command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy.environment]
+HUGO_VERSION = "0.72.0"
+
+[context.next.environment]
+HUGO_ENABLEGITINFO = "true"
+```
 Create a new repo on gitlab or github and push the project into it.
 
 **Step 3:**
@@ -92,7 +92,7 @@ Go to your domain's DNS provider website and add two `CNAME` records with values
 
 Alternatively you can add an `A` record with value of `@` forwarding to `104.198.14.52`and that is nicely done!
 
-**Step 4:**
+**Step 5:**
 
 Now we have our website setup, how can we add posts or edit content as a real site? Well, we  need a CMS, there are many options such as Netlify CMS and [forestry](https://forestry.io/ "forestry.io"), we will use forestry as  our CMS, go to forestry's website and login via github/gitlab. Click on add site select Hugo and select the latest version of Hugo then login to your git account and select your repository after that in the following popup click mark as done for all options:
 
