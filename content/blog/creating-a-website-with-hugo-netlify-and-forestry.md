@@ -94,7 +94,7 @@ Alternatively you can add an `A` record with value of `@` forwarding to `104.198
 
 **Step 4:**
 
-Now we have our website setup, how can we add posts or edit content as a real site? Well, we  need a CMS, there are many options such as Netlify CMS and forestry, we will use forestry as  our CMS, go to forestry's website and login via github/gitlab. Click on add site select Hugo and select the latest version of Hugo then login to your git account and select your repository after that in the following popup click mark as done for all options:
+Now we have our website setup, how can we add posts or edit content as a real site? Well, we  need a CMS, there are many options such as Netlify CMS and [forestry](https://forestry.io/ "forestry.io"), we will use forestry as  our CMS, go to forestry's website and login via github/gitlab. Click on add site select Hugo and select the latest version of Hugo then login to your git account and select your repository after that in the following popup click mark as done for all options:
 
 ![](/uploads/forestry-mark-as-done-all.jpg)
 
@@ -107,3 +107,9 @@ Checkout the sidebar:
 And guess what! I am posting this post with exact same config :D.
 
 ![](/uploads/screenshot_2020-06-19-forestry-io.png)
+
+Even my blog is open source and you can contribute to it. Cool! huh? :))))))
+
+Check it out:
+
+[https://github.com/eamirgh/www](https://github.com/eamirgh/www "https://github.com/eamirgh/www")
