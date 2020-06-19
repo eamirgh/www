@@ -22,7 +22,6 @@ Make a new directory and `git init` inside it. Then I add the theme as a git sub
 
 Grab the `config` file with any of these extentions:  `.yaml` `.yml` `.json` `.toml`  from your chosen theme's `exampleSite` directory and paste it to root directory of project also similarly copy the `content` folder into root project, take a look at the config file and change them as you wish.
 
-
 You can also create a `netlify.toml` file with following content to have a build script:
 
     [build]
@@ -56,9 +55,7 @@ You can also create a `netlify.toml` file with following content to have a build
     [context.next.environment]
     HUGO_ENABLEGITINFO = "true"
 
-
 Create a new repo on gitlab or github and push the project into it.
-
 
 **Step 3:**
 
@@ -76,7 +73,26 @@ Then allow giving permission to Netlify and select the repo you had created:
 
 ![](/uploads/netlify-pick-repo.jpg)
 
-In the build options enter the shown config:
+In the build options enter the shown config if they are not already set and click deploy site.
 
 ![](/uploads/netlify-build-settings.jpg)
 
+Congratulations! You have just deployed your site. Now Let's connect to your domain.
+
+**Step 4:**
+
+Click on Setup domain in the steps and enter your domain and click verify.
+
+![](/uploads/netlify-setup-domain-step2.jpg)
+
+After adding the domain you will be redirected to domain management page it will show you something like this:
+
+![](/uploads/netlify-domains.jpg)
+
+Go to your domain's DNS provider website and add two `CNAME` records with values of `@` and `www` forwarding to your Default netlify subdomain which in my case is `practical-easley-8f4f43.netlify.app` as you can see from image above.
+
+Alternatively you can add an `A` record with value of `@` forwarding to `104.198.14.52  `and that is nicely done!
+
+**Step 4:**
+
+Now we have our website setup, how can we add posts or edit content as a real site? Well, we  need a CMS, there are many options such as Netlify CMS and forestry, we will use forestry as  our CMS, go to forestry's website and login via github/gitlab 
