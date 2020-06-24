@@ -1,48 +1,84 @@
-main{
+.social-links{
     display: flex;
     justify-content: center;
+}
+.icons{
+    color: transparent;
+    background-color: #2d96bd; 
+    display: inline-block;
+    background-size: contain;
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    width: 1.6rem;
+    height: 1.6rem;
+}
+.icons:hover{
+    background-color: #ef3982;
+}
+.icon-email {
+    -webkit-mask-image: url("/icons/email.svg");
+    mask-image: url("/icons/email.svg");
+}
+.icon-github {
+    -webkit-mask-image: url("/icons/github.svg");
+    mask-image: url("/icons/github.svg");
+}
+.icon-linkedin {
+    -webkit-mask-image: url("/icons/linkedin.svg");
+    mask-image: url("/icons/linkedin.svg");
+}
+.icon-instagram {
+    -webkit-mask-image: url("/icons/instagram.svg");
+    mask-image: url("/icons/instagram.svg");
+}
+.icon-facebook {
+    -webkit-mask-image: url("/icons/facebook.svg");
+    mask-image: url("/icons/facebook.svg");
+}
+.icon-twitter {
+    -webkit-mask-image: url("/icons/twitter.svg");
+    mask-image: url("/icons/twitter.svg");
+}
+.icon-tag {
+    width: 1.1rem;
+    height: 1.1rem;
+    margin: -0.3rem 0;
+    margin-right: 0.2rem;
+    -webkit-mask-image: url("/icons/tag.svg");
+    mask-image: url("/icons/tag.svg");
+}
+.icon-next {
+    width: 1.1rem;
+    height: 1.1rem;
+    -webkit-mask-image: url("/icons/next.svg");
+    mask-image: url("/icons/next.svg");
+}
+.icon-prev {
+    width: 1.1rem;
+    height: 1.1rem;
+    rotate: 180deg;
+    -webkit-mask-image: url("/icons/next.svg");
+    mask-image: url("/icons/next.svg");
+}
+.next,.prev {
+    display: flex;
     align-items: center;
 }
-#index{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+.icon-logo {
+    -webkit-mask-image: url("/icons/contrast.svg");
+    mask-image: url("/icons/contrast.svg");
 }
-#index img {
-    width: 8rem;
-    margin: 0.5rem;
-    border-radius: 0.25rem;
+.theme-switch{
+    height: 3rem;
 }
-.splash {
+.header-logo{
     display: flex;
-    justify-content: center;
     align-items: center;
 }
-.fancy{
-    color: #f6ca93;
+#mobile-brand{
+    display: flex;
+    align-items: center;
 }
-#bio{
-    max-width: 80vw;
+#mobile-brand .theme-switch{
+    height: 4rem;
 }
-#bio p{
-    text-align: justify;
-}
-.social-icons__icon--email {
-    background-image: url("/icons/email.svg");
-    margin-left: 2rem;
-}
-@media (min-width: 640px) {
-    #index{
-        width: 80%;
-    }
-  }
-  @media (min-width: 768px) {
-    #index{
-        width: 70%;
-    }
-  }
-  @media (min-width: 1024px) {
-    #index{
-        width: 33.3333%;
-    }
-  }

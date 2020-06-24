@@ -1,0 +1,24 @@
+<div class="intro">
+    {{ $cdn_url := .Scratch.Get "cdn_url" }}
+    {{ with .Site.Params.avatar}}
+    {{ $avatar := .}}
+    <div class="avatar">
+        <a href="/blog/"> <img src="{{ (printf "%s%s" $cdn_url $avatar)}}" title="Amir Ghaffari"> </a>
+    </div>
+    {{ end }}
+    <h1 class="description">
+      Amir Ghaffari
+    </h1>
+    <h2 class="description">
+      Full-stack web developer
+    </h2>
+
+    <p class="bio">
+      I'm <b>Amir</b>, I currently live in <i>Tabriz, Iran</i>.<br>I am a backend developer, since 2015.<br>
+      I write about developing web apps<br> and tools that makes life easier as a developer. 
+    </p>
+    
+    <div class="social-links">
+      {{ partial "social.html" . }}
+    </div>
+</div>

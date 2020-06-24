@@ -1,42 +1,85 @@
 baseURL = "https://amirghaffari.com/"
 title = "Amir Ghaffari"
+subTitle = "full-stack web developer"
 
-theme = "codex"
-hasCJKLanguage = false
+theme = "LeaveIt"
+googleAnalytics = "UA-76739238-11" #PLEASE CHANGE OR COMMENT THIS
+
 enableEmoji = true
 enableRobotsTXT = true
+
 languageCode = "en-US"
 defaultContentLanguage = "en"
-copyright = "© Amir Ghaffari Heravi 2018 - {year}"
-summaryLength = 100 # Custom cummary length, add <!--more--> in post file to custom split point
-paginate = 10
-googleAnalytics = "UA-76739238-11" #PLEASE CHANGE OR COMMENT THIS
+hasCJKLanguage = false
+
+preserveTaxonomyNames = true
+
+[blackfriday]
+  hrefTargetBlank = true
+  nofollowLinks = true
+  noreferrerLinks = true
+
+[Permalinks]
+ posts = "/:filename/"
 
 [minify]
   disableCSS = false
   disableHTML = false
   disableJS = false
-  disableJSON = false
+  disableJSON = true
   disableSVG = false
   disableXML = false
   minifyOutput = true
 
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+
 [params]
-  author = "Amir Ghaffari Heravi" # You can also set author in post front matter individually
-  subTitle = "full-stack web developer"
+    since = "2018"
+    author = "Amir Ghaffari Heravi"
+    avatar = "/uploads/avatar.jpg"
+    subTitle = "full-stack web developer"
+    showLicense = false
+    showToc = false
+    # cdn_url = ""           # Base CDN URL
+    description = "full-stack web developer" # site description
+    keywords = "f"
+    # license = "© Amir Ghaffari Heravi"
 
-  # Word counter and read time indicator in post metadata
-  showWordCounter = true
-  showReadTime = true
-  # License at the end of each post
-  showLicense = false
-  showToc = false
 
-  # Open Graph & Twitter Card variables
-  # You can also set description and images in post front matter individually
-  description = "geek, programmer, full-stack developer."
-  images = ["img/og.png"] # This will use the image called og.png in static/img folder
-
-  twitter = "eamirgh"
-  github = "eamirgh"
-  email = "contact@amirghaffari.com"
+[params.social]
+    GitHub = "eamirgh"
+    Instagram = "eamirgh"
+    Twitter = "eamirgh"
+    Email   = "contact@amirghaffari.com"
+    Linkedin   = "eamirgh"
+# [params]
+#   # Word counter and read time indicator in post metadata
+#   showWordCounter = true
+#   showReadTime = true
+#   # License at the end of each post
+#   # Open Graph & Twitter Card variables
+#   # You can also set description and images in post front matter individually
+#   description = "geek, programmer, full-stack developer."
+#   images = ["img/og.png"] # This will use the image called og.png in static/img folder
+#   twitter = "eamirgh"
+#   github = "eamirgh"
+#   email = "contact@amirghaffari.com"

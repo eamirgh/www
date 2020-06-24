@@ -1,2 +1,0 @@
-User-agent: *
-Sitemap: https://amirghaffari.com/sitemap.xml
