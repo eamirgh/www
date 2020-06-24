@@ -20,5 +20,17 @@ fields:
 - type: list
   name: keywords
   label: keywords
+- name: category
+  type: select
+  default: ''
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Category
 pages:
 - content/blog/creating-a-website-with-hugo-netlify-and-forestry.md
