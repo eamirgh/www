@@ -3,6 +3,8 @@ layout: blog
 title: How to deploy a NUXT.JS app via NPM and docker?
 description: A tutorial to dockerize a nuxtjs app via npm and publish it
 date: 2020-06-15T07:50:42.726+00:00
+categories: 
+- Tutorial
 tags:
 - nuxt.js
 - docker
