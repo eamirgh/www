@@ -85,3 +85,6 @@
 #mobile-brand .theme-switch{
     height: 4rem;
 }
+p.bio{
+    text-align: unset;
+}

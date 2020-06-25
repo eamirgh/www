@@ -1,0 +1,6 @@
+/* Specify in CSS */
+.prettyprint  { font-family: 'Fira Code', monospace; }
+
+@supports (font-variation-settings: normal) {
+  .prettyprint { font-family: 'Fira Code VF', monospace; }
+}
