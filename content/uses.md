@@ -1,6 +1,8 @@
 +++
 date = 2020-06-24T19:30:00Z
 title = "Uses"
+[menu.main]
+weight = 3
 
 +++
 ## Development
