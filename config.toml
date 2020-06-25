@@ -29,7 +29,7 @@ disableXML = false
 minifyOutput = true
 [params]
 author = "Amir Ghaffari Heravi"
-avatar = "/uploads/avatar.jpg"
+avatar = "/uploads/avatar.webp"
 description = "full-stack web developer"
 keywords = "f"
 showLicense = false
