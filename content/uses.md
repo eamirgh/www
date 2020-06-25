@@ -5,7 +5,23 @@ title = "Uses"
 weight = 3
 
 +++
-## Development
+In case you are curious about what I use:
+
+## Development and Programming
+
+* PHP
+* Golang
+* Python
+* JavaScript
+* Laravel
+* Lumen
+* Vue.js
+* Nuxt.js
+* TailwindCSS
+* Bulma
+* axios
+
+## Development Environment
 
 * [vim(nvim)](https://github.com/eamirgh/nvimrc ".VIMRC") with Vim-Plug
 * Kitty(Terminal Emulator)
@@ -43,3 +59,18 @@ weight = 3
 ## Mobile
 
 * Xiaomi Poco F1
+
+## Website
+
+* Netlify
+* Hugo
+* Forestry
+* LeaveIt Hugo Theme
+
+## Hosting
+
+* ArvanCloud (IaaS & PaaS)
+* FandoghCloud (PaaS)
+* Cloudflare (CDN & DNS)
+* Netlify
+* DigitalOcean
