@@ -83,11 +83,11 @@
     align-items: center;
 }
 #mobile-brand .theme-switch{
-    height: 5.3rem;
+    height: 5.4rem;
 }
 p.bio{
     text-align: unset;
 }
 .intro {
-    transform: translateY(10vh);
+    transform: translateY(15vh);
 }
