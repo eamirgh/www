@@ -42,4 +42,8 @@
     font-size: 2em;
     transform: translateY(35vh);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
