@@ -6,8 +6,11 @@
     color: transparent;
     background-color: #2d96bd; 
     display: inline-block;
+    -webkit-background-size: contain;
     background-size: contain;
+    -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
     mask-size: contain;
     width: 1.6rem;
     height: 1.6rem;
