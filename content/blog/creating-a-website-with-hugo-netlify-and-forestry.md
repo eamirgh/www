@@ -1,4 +1,5 @@
 +++
+category = ""
 date = 2020-06-18T19:30:00Z
 description = "A tutorial for creating a website with Hugo, Netlify and Forestry using github or gitlab."
 keywords = ["static cms", "netlify", "hugo site generator", "static website", "free static website"]
@@ -15,7 +16,9 @@ First of all, let me tell you that we will use [Hugo](https://gohugo.io/ "Hugo")
 
 Make a new directory and `git init` inside it. Then I add the theme as a git sub-module:
 
-    git submodule add https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme.git themes/vanilla-bootstrap-hugo-theme
+```bash
+git submodule add https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme.git themes/vanilla-bootstrap-hugo-theme
+```
 
 **Step 2:**
 
