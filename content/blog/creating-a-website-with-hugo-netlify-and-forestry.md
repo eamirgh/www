@@ -1,5 +1,5 @@
 +++
-categories = "Tutorial"
+categories = ["Tutorial"]
 date = 2020-06-18T19:30:00Z
 description = "A tutorial for creating a website with Hugo, Netlify and Forestry using github or gitlab."
 keywords = ["static cms", "netlify", "hugo site generator", "static website", "free static website"]
