@@ -25,6 +25,7 @@ fields:
     - Book
     - Development
     - Testing
+    - General
     source:
       type: simple
       section: 
