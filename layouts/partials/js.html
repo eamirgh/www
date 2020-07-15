@@ -12,21 +12,21 @@
     {{ if $postHasImages }}
      <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
      {{ $vendorscript := slice $jquery $lazysizes $prettify $dynamic $main $lihtGallery $lihtGallery_init | resources.Concat "/js/vendor_gallery.js" | resources.Minify }} 
-     <script src="{{ printf "%s%s" $cdn_url $vendorscript.RelPermalink }}" defer></script>
+     <script src="{{ printf "%s%s" $cdn_url $vendorscript.RelPermalink }}"></script>
     {{ else }}
     {{ $vendorscript := slice $jquery $prettify $dynamic $main | resources.Concat "/js/vendor_no_gallery.js" | resources.Minify }}
-    <script src="{{ printf "%s%s" $cdn_url $vendorscript.RelPermalink }}" defer></script>
+    <script src="{{ printf "%s%s" $cdn_url $vendorscript.RelPermalink }}"></script>
     {{ end }}
   
 {{ else }}
     {{ $main := slice  $jquery $main | resources.Concat "/js/vendor_main.js" | resources.Minify}}
-    <script src="{{ printf "%s%s" $cdn_url $main.RelPermalink }}" defer></script>
+    <script src="{{ printf "%s%s" $cdn_url $main.RelPermalink }}"></script>
 {{ end }}
 
 {{ if eq ( getenv "HUGO_ENV" ) "production" }}
   {{ template "_internal/google_analytics_async.html" . }}
   {{ with .Site.Params.baiduAnalytics}}
-    <script defer>
+    <script>
     var _hmt = _hmt || [];
     (function() {
         var hm = document.createElement("script");
