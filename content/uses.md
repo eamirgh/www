@@ -41,7 +41,7 @@ In case you are curious about what I use:
 * Dolphin
 * Telegram Messenger
 * Insomnia
-* Cmake as task runner
+* Make as task runner
 * DBeaver
 
 ## Setup
