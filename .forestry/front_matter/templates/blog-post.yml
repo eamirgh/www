@@ -44,3 +44,4 @@ fields:
   label: keywords
 pages:
 - content/blog/creating-a-website-with-hugo-netlify-and-forestry.md
+- content/blog/using-makefile-as-task-runner.md
