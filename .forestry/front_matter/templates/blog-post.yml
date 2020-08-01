@@ -40,9 +40,9 @@ fields:
   name: tags
   label: tags
   config:
-    use_select: true
+    use_select: false
     source:
-      type: pages
+      type: simple
       section: blog
       file: content/blog/using-makefile-as-task-runner.md
       path: tags
