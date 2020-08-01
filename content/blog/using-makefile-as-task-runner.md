@@ -1,18 +1,18 @@
 ---
-categories : ["Tooling"]
-date : 2020-07-31T14:51:00Z
-description : "How to use make file as a task runner?"
-keywords : 
+categories: Tooling
+date: 2020-07-31T14:51:00.000+00:00
+description: How to use make file as a task runner?
+keywords:
 - development task
 - automated task run
 - development
-layout : blog
-tags : 
+layout: blog
+tags:
 - development
 - task-runner
 - makefile
 - make
-title : "Using Makefile as task runner"
+title: Using Makefile as task runner
 
 ---
 In a routine work day life of a programmer there are many tasks that are running repetitively, especially when you deal with multiple programming languages.
