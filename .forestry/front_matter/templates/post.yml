@@ -2,24 +2,39 @@
 label: POST
 hide_body: false
 fields:
-- type: list
-  name: categories
-  label: categories
-- type: datetime
-  name: date
-  label: date
-- type: text
-  name: description
-  label: description
-- type: list
-  name: keywords
-  label: keywords
 - type: text
   name: layout
   label: layout
-- type: list
-  name: tags
-  label: tags
+  config:
+    required: true
+  default: blog
+  hidden: true
+- type: datetime
+  name: date
+  label: date
+  hidden: true
+  config:
+    required: true
+    display_utc: false
+  default: now
 - type: text
   name: title
   label: title
+- type: text
+  name: description
+  label: description
+  config:
+    required: true
+- type: list
+  name: categories
+  label: categories
+  config:
+    use_select: false
+- type: list
+  name: tags
+  label: tags
+  config:
+    use_select: false
+- type: list
+  name: keywords
+  label: keywords
