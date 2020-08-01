@@ -1,5 +1,5 @@
 ---
-categories: Tooling
+categories: ["Tooling"]
 date: 2020-07-31T14:51:00.000+00:00
 description: How to use make file as a task runner?
 keywords:
