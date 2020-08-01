@@ -1,6 +1,6 @@
 ---
 label: Blog post
-hide_body: false
+hide_body: true
 fields:
 - type: text
   name: layout
@@ -39,6 +39,13 @@ fields:
 - type: list
   name: tags
   label: tags
+  config:
+    use_select: true
+    source:
+      type: documents
+      section: blog
+      file: content/blog/using-makefile-as-task-runner.md
+      path: tags
 - type: list
   name: keywords
   label: keywords
