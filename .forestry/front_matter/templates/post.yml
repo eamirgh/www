@@ -38,5 +38,3 @@ fields:
 - type: list
   name: keywords
   label: keywords
-pages:
-- content/blog/test.md
