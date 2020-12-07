@@ -9,4 +9,5 @@ fields:
   name: date
   label: date
 pages:
+- content/now.md
 - content/uses.md
