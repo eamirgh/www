@@ -2,7 +2,7 @@
 date = 2020-06-24T19:30:00Z
 title = "Uses"
 [menu.main]
-weight = 3
+weight = 4
 
 +++
 In case you are curious about what I use:
