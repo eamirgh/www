@@ -1,6 +1,8 @@
 +++
 date = 2020-12-07T20:30:00Z
 title = "Now"
+[menu.main]
+weight = 4
 
 +++
 This page is inspired by [Derek Sivers](https://sive.rs/now "Derek Sivers").
