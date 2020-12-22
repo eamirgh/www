@@ -38,3 +38,5 @@ fields:
 - type: list
   name: keywords
   label: keywords
+pages:
+- content/blog/how-to-httponly-cookies-nuxt-auth-plugin.md
