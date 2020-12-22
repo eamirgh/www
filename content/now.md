@@ -11,12 +11,11 @@ This page is inspired by [Derek Sivers](https://sive.rs/now "Derek Sivers").
 
 ## Work
 
-  
 I currently work on a project, I think this is a life changing , back-end in pure golang and front-end in Nuxt.js also it has some taste of php and python. Also I work as a full stack developer with [Laravel](https://laravel.com/ "Laravel") to make money.
 
 ## Book
 
-I'm reading _A Man Called Ove_ novel by Fredrik Backman.
+You check [my Goodreads profile](https://www.goodreads.com/eamirgh "Goodreads") for my currently reading books.
 
 ## Music
 
