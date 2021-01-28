@@ -28,7 +28,7 @@ disableSVG = false
 disableXML = false
 minifyOutput = true
 [params]
-author = "Amir Ghaffari Heravi"
+author = "Amir Ghaffari"
 avatar = "/uploads/avatar.webp"
 description = "full-stack web developer"
 keywords = "f"
