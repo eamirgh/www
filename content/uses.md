@@ -11,34 +11,31 @@ In case you are curious about what I use:
 
 * PHP
 * Golang
-* Python
 * JavaScript
 * Laravel
 * Lumen
 * Vue.js
 * Nuxt.js
 * TailwindCSS
-* Bulma
-* axios
 
 ## Development Environment
 
 * [vim(nvim)](https://github.com/eamirgh/nvimrc ".VIMRC") with Vim-Plug
 * Kitty(Terminal Emulator)
-* VSCodium
+* VSCode
 * Docker as development environment
+* Laravel Valet for linux
 * Firefox Developer Edition
 * Fira Code Font
 
 ## Software
 
-* Linux as OS (arch, fedora and debian)
-* KDE as desktop environment
-* ZSH (OH-MY-ZSH framework) with Zinit Plugin manager
+* Manjaro linux
+* GNOME desktop environment
+* ZSH (OH-MY-ZSH framework)
 * Spotify and Auryo
 * VLC
 * Flameshot
-* Dolphin
 * Telegram Messenger
 * Insomnia
 * Make as task runner
@@ -71,6 +68,6 @@ In case you are curious about what I use:
 
 * ArvanCloud (IaaS & PaaS)
 * FandoghCloud (PaaS)
+* Chabokan (PaaS)
 * Cloudflare (CDN & DNS)
-* Netlify
 * DigitalOcean
