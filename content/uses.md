@@ -13,9 +13,8 @@ In case you are curious about what I use:
 * Golang
 * JavaScript
 * Laravel
-* Lumen
 * Vue.js
-* Nuxt.js
+* Alpine.js
 * TailwindCSS
 
 ## Development Environment
