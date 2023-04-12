@@ -39,5 +39,6 @@ fields:
   name: keywords
   label: keywords
 pages:
+- content/blog/how-to-dockerize-golang-apps.md
 - content/blog/how-to-httponly-cookies-nuxt-auth-plugin.md
 - content/blog/how-to-learn-programming-from-twitter.md
