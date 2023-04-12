@@ -2,7 +2,6 @@
 categories = []
 date = 2023-04-12T03:41:40Z
 description = "This article is a tutorial about dockerizing any golang app."
-draft = true
 keywords = ["docker-compose", "podman", "pod", "docker", "golang"]
 layout = "blog"
 tags = ["golang", "docker"]
